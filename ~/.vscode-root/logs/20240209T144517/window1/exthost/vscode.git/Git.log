@@ -1,0 +1,387 @@
+2024-02-09 14:45:20.152 [info] Log level: Info
+2024-02-09 14:45:20.152 [info] Validating found git in: "git"
+2024-02-09 14:45:20.152 [info] Using git "2.34.1" from "git"
+2024-02-09 14:45:20.152 [info] > git rev-parse --show-toplevel [70ms]
+2024-02-09 14:45:20.152 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-02-09 14:45:20.152 [info] Open repository: /var/www/html/ThreeJS/Setup_npm/three_vite
+2024-02-09 14:45:20.153 [info] > git config --get commit.template [13ms]
+2024-02-09 14:45:20.181 [info] > git rev-parse --show-toplevel [30ms]
+2024-02-09 14:45:20.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2024-02-09 14:45:20.222 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Setup_npm/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:45:20.223 [info] > git rev-parse --show-toplevel [15ms]
+2024-02-09 14:45:20.227 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-02-09 14:45:20.243 [info] > git status -z -uall [3ms]
+2024-02-09 14:45:20.284 [info] > git config --get commit.template [2ms]
+2024-02-09 14:45:20.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-02-09 14:45:20.332 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Setup_npm/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:45:20.334 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:45:20.365 [info] > git status -z -uall [20ms]
+2024-02-09 14:45:20.704 [info] > git show --textconv :main.js [58ms]
+2024-02-09 14:45:20.705 [info] > git ls-files --stage -- /var/www/html/ThreeJS/Setup_npm/three_vite/main.js [47ms]
+2024-02-09 14:45:20.716 [info] > git check-ignore -v -z --stdin [13ms]
+2024-02-09 14:45:20.729 [info] > git cat-file -s 2211d6134f28de12e9655da5d9d2639d99d41401 [15ms]
+2024-02-09 14:45:29.582 [info] Log level: Info
+2024-02-09 14:45:29.582 [info] Validating found git in: "git"
+2024-02-09 14:45:29.582 [info] Using git "2.34.1" from "git"
+2024-02-09 14:45:29.582 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-09 14:45:29.590 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-02-09 14:45:29.598 [info] Open repository: /var/www/html/ThreeJS/Projet/three_vite
+2024-02-09 14:45:29.613 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-09 14:45:29.614 [info] > git config --get commit.template [9ms]
+2024-02-09 14:45:29.627 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-09 14:45:29.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:45:29.637 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:45:29.637 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-09 14:45:29.639 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-02-09 14:45:29.648 [info] > git status -z -uall [3ms]
+2024-02-09 14:45:29.675 [info] > git config --get commit.template [4ms]
+2024-02-09 14:45:29.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [60ms]
+2024-02-09 14:45:29.747 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:45:29.753 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-02-09 14:45:29.761 [info] > git status -z -uall [2ms]
+2024-02-09 14:45:30.122 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-09 14:45:31.539 [info] > git show --textconv :main.js [13ms]
+2024-02-09 14:45:31.568 [info] > git ls-files --stage -- /var/www/html/ThreeJS/Projet/three_vite/main.js [31ms]
+2024-02-09 14:45:31.579 [info] > git cat-file -s 2211d6134f28de12e9655da5d9d2639d99d41401 [2ms]
+2024-02-09 14:45:32.736 [info] > git config --get commit.template [7ms]
+2024-02-09 14:45:32.737 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:45:32.744 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:45:32.745 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:45:32.755 [info] > git status -z -uall [3ms]
+2024-02-09 14:45:37.780 [info] > git config --get commit.template [5ms]
+2024-02-09 14:45:37.781 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:45:37.786 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:45:37.787 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:45:37.795 [info] > git status -z -uall [3ms]
+2024-02-09 14:45:58.858 [info] > git config --get commit.template [10ms]
+2024-02-09 14:45:58.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:45:58.865 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:45:58.866 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:45:58.878 [info] > git status -z -uall [3ms]
+2024-02-09 14:46:03.899 [info] > git config --get commit.template [6ms]
+2024-02-09 14:46:03.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-09 14:46:03.906 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:46:03.907 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:46:03.915 [info] > git status -z -uall [3ms]
+2024-02-09 14:46:08.934 [info] > git config --get commit.template [6ms]
+2024-02-09 14:46:08.935 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:46:08.940 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:46:08.941 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:46:08.948 [info] > git status -z -uall [4ms]
+2024-02-09 14:46:13.967 [info] > git config --get commit.template [7ms]
+2024-02-09 14:46:13.967 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:46:13.973 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:46:13.974 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:46:13.983 [info] > git status -z -uall [4ms]
+2024-02-09 14:46:18.999 [info] > git config --get commit.template [5ms]
+2024-02-09 14:46:19.001 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-09 14:46:19.007 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:46:19.008 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-09 14:46:19.015 [info] > git status -z -uall [3ms]
+2024-02-09 14:46:24.034 [info] > git config --get commit.template [6ms]
+2024-02-09 14:46:24.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:46:24.039 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:46:24.039 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:46:24.047 [info] > git status -z -uall [3ms]
+2024-02-09 14:46:29.061 [info] > git config --get commit.template [2ms]
+2024-02-09 14:46:29.068 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:46:29.073 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:46:29.074 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:46:29.085 [info] > git status -z -uall [5ms]
+2024-02-09 14:46:32.940 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-09 14:46:33.919 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-09 14:46:34.103 [info] > git config --get commit.template [5ms]
+2024-02-09 14:46:34.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:46:34.109 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:46:34.110 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:46:34.117 [info] > git status -z -uall [2ms]
+2024-02-09 14:46:35.212 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-09 14:46:39.134 [info] > git config --get commit.template [6ms]
+2024-02-09 14:46:39.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:46:39.140 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:46:39.141 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:46:39.150 [info] > git status -z -uall [3ms]
+2024-02-09 14:46:44.167 [info] > git config --get commit.template [6ms]
+2024-02-09 14:46:44.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:46:44.173 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:46:44.174 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:46:44.181 [info] > git status -z -uall [3ms]
+2024-02-09 14:47:03.013 [info] > git config --get commit.template [7ms]
+2024-02-09 14:47:03.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:47:03.021 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:47:03.022 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:47:03.032 [info] > git status -z -uall [3ms]
+2024-02-09 14:47:08.052 [info] > git config --get commit.template [7ms]
+2024-02-09 14:47:08.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:47:08.057 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:47:08.059 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:47:08.068 [info] > git status -z -uall [4ms]
+2024-02-09 14:47:13.088 [info] > git config --get commit.template [8ms]
+2024-02-09 14:47:13.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:47:13.095 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:47:13.096 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:47:13.105 [info] > git status -z -uall [3ms]
+2024-02-09 14:47:18.122 [info] > git config --get commit.template [1ms]
+2024-02-09 14:47:18.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:47:18.133 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:47:18.134 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:47:18.142 [info] > git status -z -uall [3ms]
+2024-02-09 14:47:23.172 [info] > git config --get commit.template [9ms]
+2024-02-09 14:47:23.175 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-09 14:47:23.180 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:47:23.181 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:47:23.189 [info] > git status -z -uall [3ms]
+2024-02-09 14:47:28.216 [info] > git config --get commit.template [8ms]
+2024-02-09 14:47:28.216 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:47:28.224 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:47:28.226 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-09 14:47:28.235 [info] > git status -z -uall [3ms]
+2024-02-09 14:47:46.059 [info] > git config --get commit.template [9ms]
+2024-02-09 14:47:46.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:47:46.068 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:47:46.069 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:47:46.081 [info] > git status -z -uall [4ms]
+2024-02-09 14:47:51.100 [info] > git config --get commit.template [5ms]
+2024-02-09 14:47:51.101 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:47:51.106 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:47:51.108 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-09 14:47:51.116 [info] > git status -z -uall [2ms]
+2024-02-09 14:47:56.136 [info] > git config --get commit.template [6ms]
+2024-02-09 14:47:56.137 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:47:56.142 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:47:56.143 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:47:56.152 [info] > git status -z -uall [4ms]
+2024-02-09 14:48:01.173 [info] > git config --get commit.template [6ms]
+2024-02-09 14:48:01.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:48:01.178 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:48:01.179 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:48:01.188 [info] > git status -z -uall [4ms]
+2024-02-09 14:48:11.431 [info] > git config --get commit.template [10ms]
+2024-02-09 14:48:11.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:48:11.439 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:48:11.440 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:48:11.451 [info] > git status -z -uall [4ms]
+2024-02-09 14:48:16.468 [info] > git config --get commit.template [5ms]
+2024-02-09 14:48:16.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:48:16.473 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:48:16.474 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:48:16.481 [info] > git status -z -uall [2ms]
+2024-02-09 14:48:41.111 [info] > git config --get commit.template [9ms]
+2024-02-09 14:48:41.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:48:41.118 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:48:41.120 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-09 14:48:41.131 [info] > git status -z -uall [4ms]
+2024-02-09 14:48:46.153 [info] > git config --get commit.template [9ms]
+2024-02-09 14:48:46.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:48:46.162 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:48:46.163 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:48:46.175 [info] > git status -z -uall [4ms]
+2024-02-09 14:48:51.196 [info] > git config --get commit.template [7ms]
+2024-02-09 14:48:51.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:48:51.203 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:48:51.204 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:48:51.213 [info] > git status -z -uall [3ms]
+2024-02-09 14:49:00.531 [info] > git config --get commit.template [7ms]
+2024-02-09 14:49:00.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:49:00.539 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:49:00.540 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:49:00.549 [info] > git status -z -uall [2ms]
+2024-02-09 14:49:05.573 [info] > git config --get commit.template [10ms]
+2024-02-09 14:49:05.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:49:05.585 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:49:05.586 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:49:05.595 [info] > git status -z -uall [3ms]
+2024-02-09 14:49:10.615 [info] > git config --get commit.template [3ms]
+2024-02-09 14:49:10.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-09 14:49:10.638 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:49:10.640 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-09 14:49:10.653 [info] > git status -z -uall [4ms]
+2024-02-09 14:49:15.672 [info] > git config --get commit.template [6ms]
+2024-02-09 14:49:15.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:49:15.678 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:49:15.679 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:49:15.687 [info] > git status -z -uall [4ms]
+2024-02-09 14:49:20.706 [info] > git config --get commit.template [6ms]
+2024-02-09 14:49:20.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:49:20.711 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:49:20.712 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:49:20.719 [info] > git status -z -uall [2ms]
+2024-02-09 14:49:25.740 [info] > git config --get commit.template [7ms]
+2024-02-09 14:49:25.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:49:25.745 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:49:25.746 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:49:25.754 [info] > git status -z -uall [3ms]
+2024-02-09 14:49:30.776 [info] > git config --get commit.template [7ms]
+2024-02-09 14:49:30.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:49:30.781 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:49:30.782 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:49:30.789 [info] > git status -z -uall [3ms]
+2024-02-09 14:50:02.583 [info] > git config --get commit.template [8ms]
+2024-02-09 14:50:02.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:50:02.591 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:02.592 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:02.603 [info] > git status -z -uall [3ms]
+2024-02-09 14:50:07.624 [info] > git config --get commit.template [6ms]
+2024-02-09 14:50:07.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:50:07.629 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:07.630 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:07.638 [info] > git status -z -uall [3ms]
+2024-02-09 14:50:12.656 [info] > git config --get commit.template [7ms]
+2024-02-09 14:50:12.657 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:50:12.662 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:12.662 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:12.670 [info] > git status -z -uall [2ms]
+2024-02-09 14:50:17.690 [info] > git config --get commit.template [6ms]
+2024-02-09 14:50:17.691 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:50:17.697 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:17.698 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:17.705 [info] > git status -z -uall [3ms]
+2024-02-09 14:50:22.727 [info] > git config --get commit.template [6ms]
+2024-02-09 14:50:22.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:50:22.733 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:22.733 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:22.741 [info] > git status -z -uall [3ms]
+2024-02-09 14:50:27.760 [info] > git config --get commit.template [6ms]
+2024-02-09 14:50:27.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:50:27.766 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:27.767 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:27.775 [info] > git status -z -uall [3ms]
+2024-02-09 14:50:32.799 [info] > git config --get commit.template [7ms]
+2024-02-09 14:50:32.800 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:50:32.806 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:32.807 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:32.816 [info] > git status -z -uall [3ms]
+2024-02-09 14:50:42.495 [info] > git config --get commit.template [1ms]
+2024-02-09 14:50:42.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:50:42.508 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:42.509 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:42.517 [info] > git status -z -uall [3ms]
+2024-02-09 14:50:47.535 [info] > git config --get commit.template [6ms]
+2024-02-09 14:50:47.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:50:47.542 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:47.543 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:47.551 [info] > git status -z -uall [3ms]
+2024-02-09 14:50:52.574 [info] > git config --get commit.template [6ms]
+2024-02-09 14:50:52.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:50:52.580 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:52.581 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:52.589 [info] > git status -z -uall [3ms]
+2024-02-09 14:50:57.621 [info] > git config --get commit.template [11ms]
+2024-02-09 14:50:57.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:50:57.628 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:50:57.629 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:50:57.638 [info] > git status -z -uall [3ms]
+2024-02-09 14:51:07.655 [info] > git config --get commit.template [2ms]
+2024-02-09 14:51:07.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:51:07.677 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:51:07.678 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:51:07.688 [info] > git status -z -uall [3ms]
+2024-02-09 14:51:31.913 [info] > git config --get commit.template [2ms]
+2024-02-09 14:51:31.925 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-09 14:51:31.934 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:51:31.935 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:51:31.945 [info] > git status -z -uall [4ms]
+2024-02-09 14:51:36.976 [info] > git config --get commit.template [8ms]
+2024-02-09 14:51:36.977 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:51:36.986 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:51:36.987 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-09 14:51:36.996 [info] > git status -z -uall [3ms]
+2024-02-09 14:51:42.027 [info] > git config --get commit.template [10ms]
+2024-02-09 14:51:42.029 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-09 14:51:42.035 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:51:42.036 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:51:42.045 [info] > git status -z -uall [3ms]
+2024-02-09 14:51:47.081 [info] > git config --get commit.template [11ms]
+2024-02-09 14:51:47.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-09 14:51:47.090 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:51:47.091 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-09 14:51:47.100 [info] > git status -z -uall [3ms]
+2024-02-09 14:53:16.130 [info] > git config --get commit.template [1ms]
+2024-02-09 14:53:16.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:53:16.152 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:53:16.154 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-09 14:53:16.169 [info] > git status -z -uall [3ms]
+2024-02-09 14:53:21.205 [info] > git config --get commit.template [9ms]
+2024-02-09 14:53:21.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:53:21.212 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:53:21.213 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:53:21.222 [info] > git status -z -uall [3ms]
+2024-02-09 14:53:26.255 [info] > git config --get commit.template [9ms]
+2024-02-09 14:53:26.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:53:26.263 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:53:26.264 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:53:26.273 [info] > git status -z -uall [3ms]
+2024-02-09 14:53:31.305 [info] > git config --get commit.template [9ms]
+2024-02-09 14:53:31.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:53:31.314 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:53:31.315 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:53:31.324 [info] > git status -z -uall [3ms]
+2024-02-09 14:53:36.359 [info] > git config --get commit.template [11ms]
+2024-02-09 14:53:36.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:53:36.366 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:53:36.367 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:53:36.376 [info] > git status -z -uall [3ms]
+2024-02-09 14:53:41.404 [info] > git config --get commit.template [9ms]
+2024-02-09 14:53:41.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:53:41.413 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:53:41.414 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:53:41.425 [info] > git status -z -uall [3ms]
+2024-02-09 14:53:46.457 [info] > git config --get commit.template [8ms]
+2024-02-09 14:53:46.457 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:53:46.464 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:53:46.465 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:53:46.475 [info] > git status -z -uall [3ms]
+2024-02-09 14:53:51.510 [info] > git config --get commit.template [11ms]
+2024-02-09 14:53:51.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-09 14:53:51.519 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:53:51.520 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:53:51.530 [info] > git status -z -uall [4ms]
+2024-02-09 14:53:56.567 [info] > git config --get commit.template [11ms]
+2024-02-09 14:53:56.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-09 14:53:56.576 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:53:56.577 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:53:56.586 [info] > git status -z -uall [3ms]
+2024-02-09 14:54:01.618 [info] > git config --get commit.template [10ms]
+2024-02-09 14:54:01.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:54:01.626 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:54:01.627 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:54:01.636 [info] > git status -z -uall [3ms]
+2024-02-09 14:54:06.668 [info] > git config --get commit.template [9ms]
+2024-02-09 14:54:06.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:54:06.677 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:54:06.678 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:54:06.687 [info] > git status -z -uall [3ms]
+2024-02-09 14:54:11.716 [info] > git config --get commit.template [8ms]
+2024-02-09 14:54:11.717 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:54:11.724 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:54:11.726 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:54:11.738 [info] > git status -z -uall [4ms]
+2024-02-09 14:54:16.767 [info] > git config --get commit.template [8ms]
+2024-02-09 14:54:16.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:54:16.777 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:54:16.778 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:54:16.787 [info] > git status -z -uall [3ms]
+2024-02-09 14:54:21.808 [info] > git config --get commit.template [7ms]
+2024-02-09 14:54:21.809 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:54:21.814 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:54:21.815 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:54:21.823 [info] > git status -z -uall [2ms]
+2024-02-09 14:54:24.199 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-02-09 14:54:24.211 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-02-09 14:54:24.879 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-09 14:54:26.853 [info] > git config --get commit.template [9ms]
+2024-02-09 14:54:26.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:54:26.861 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:54:26.862 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:54:26.871 [info] > git status -z -uall [3ms]
+2024-02-09 14:54:27.481 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-09 14:54:39.118 [info] > git config --get commit.template [10ms]
+2024-02-09 14:54:39.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-09 14:54:39.128 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:54:39.129 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-09 14:54:39.139 [info] > git status -z -uall [3ms]
+2024-02-09 14:54:49.227 [info] > git config --get commit.template [11ms]
+2024-02-09 14:54:49.227 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-09 14:54:49.235 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Projet/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:54:49.236 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:54:49.247 [info] > git status -z -uall [4ms]

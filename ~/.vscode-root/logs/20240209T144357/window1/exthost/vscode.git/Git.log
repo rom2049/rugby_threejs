@@ -1,0 +1,27 @@
+2024-02-09 14:43:59.953 [info] Log level: Info
+2024-02-09 14:43:59.953 [info] Validating found git in: "git"
+2024-02-09 14:43:59.953 [info] Using git "2.34.1" from "git"
+2024-02-09 14:44:27.201 [info] Log level: Info
+2024-02-09 14:44:27.201 [info] Validating found git in: "git"
+2024-02-09 14:44:27.201 [info] Using git "2.34.1" from "git"
+2024-02-09 14:44:27.201 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-09 14:44:27.210 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-02-09 14:44:27.218 [info] Open repository: /var/www/html/ThreeJS/Setup_npm/three_vite
+2024-02-09 14:44:27.232 [info] > git config --get commit.template [6ms]
+2024-02-09 14:44:27.234 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-09 14:44:27.246 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-02-09 14:44:27.251 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Setup_npm/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:44:27.251 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-09 14:44:27.254 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-02-09 14:44:27.261 [info] > git status -z -uall [2ms]
+2024-02-09 14:44:27.277 [info] > git config --get commit.template [2ms]
+2024-02-09 14:44:27.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-02-09 14:44:27.363 [warning] ENOENT: no such file or directory, open '/var/www/html/ThreeJS/Setup_npm/three_vite/.git/refs/remotes/origin/main'
+2024-02-09 14:44:27.364 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-09 14:44:27.371 [info] > git status -z -uall [1ms]
+2024-02-09 14:44:27.742 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-09 14:44:29.633 [info] > git show --textconv :main.js [16ms]
+2024-02-09 14:44:29.633 [info] > git ls-files --stage -- /var/www/html/ThreeJS/Setup_npm/three_vite/main.js [3ms]
+2024-02-09 14:44:29.648 [info] > git cat-file -s 2211d6134f28de12e9655da5d9d2639d99d41401 [6ms]
+2024-02-09 14:45:01.126 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-09 14:45:02.075 [info] > git check-ignore -v -z --stdin [1ms]

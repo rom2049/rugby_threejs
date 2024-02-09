@@ -1,0 +1,9 @@
+[2024-02-09 14:45:29.544] Starting Git Graph ...
+[2024-02-09 14:45:29.566] Using git (version: 2.34.1)
+[2024-02-09 14:45:29.569] Started Git Graph - Ready to use!
+[2024-02-09 14:45:29.569] Searching workspace for new repos ...
+[2024-02-09 14:45:29.575] > git rev-parse --show-toplevel
+[2024-02-09 14:45:29.581] Added new repo: /var/www/html/ThreeJS/Projet/three_vite
+[2024-02-09 14:45:29.581] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2024-02-09 14:45:29.587] Completed searching workspace for new repos
+[2024-02-09 14:45:29.588] Showing "Git Graph" Status Bar Item
