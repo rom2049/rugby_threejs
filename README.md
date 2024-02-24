@@ -1,8 +1,6 @@
-# three_vite
-Basic THREE.js template using [Vite](https://vitejs.dev).
 
-Allows testing and modifying [official THREE.js examples](https://threejs.org/examples/) locally, at lightning speed.
-After trying Parcel and Rollup, this is probably the most developer-friendly to start THREE.js development in 2023 : it's insanely fast, it supports live reload out of the box, while remaining simple to use and to extend.
+# Rugby 3D
+Ce projet présente en terrain de rugby avec une cage et un ballon. Le but est de lancer le ballon entre les poteaux. Les flèches directionnelles servent à donner une impulsion à la balle. La touche p permet d'envoyer la balle dans l'air.   
 
 ## Batteries included
 
